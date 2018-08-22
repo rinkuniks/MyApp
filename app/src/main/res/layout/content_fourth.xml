@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icecream"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#0d0dbb"
+        android:text="ICE_CREAM"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:id="@+id/et43"
+        android:text="Product Detail:- Chocolate ice cream is generally made by blending cocoa powder along with the eggs, cream, vanilla and sugar used to make vanilla ice cream. Sometimes chocolate liquor is used in addition to cocoa powder, or it is used exclusively, to create the chocolate flavor."
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        />
+
+
+</LinearLayout>

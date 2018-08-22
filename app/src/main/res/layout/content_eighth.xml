@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:src="@drawable/popcorn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#0d0dbb"
+        android:text="POP-CORN"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:id="@+id/et83"
+        android:text="Producr Detail:- The cheese flavor from Uptown Popcorn, however, is sharper and bolder than most cheese popcorns with a real cheddar taste. The popcorn is not just sprinkled with a cheese-flavored powder either; each kernel is generously coated so that every bite is bursting with exquisite cheddar flavor."
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        />
+
+
+</LinearLayout>

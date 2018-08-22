@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Snaky</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="title_activity_fourth">FourthActivity</string>
+    <string name="title_activity_fifth">Fifth</string>
+    <string name="title_activity_sixth">Sixth</string>
+    <string name="title_activity_seventh">Seventh</string>
+    <string name="title_activity_eighth">Eighth</string>
+    <string name="title_activity_ninth">Ninth</string>
+    <string name="title_activity_tenth">Tenth</string>
+    <string name="title_activity_eleventh">Eleventh</string>
+</resources>

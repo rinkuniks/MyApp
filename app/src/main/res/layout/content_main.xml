@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="150dp"
+                    android:id="@+id/iview"
+                    android:src="@drawable/pizza"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:id="@+id/et1"
+                        android:text="PIZZA"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:id="@+id/et2"
+                        android:text="Cheese Pizza"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0a129c"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll2"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="150dp"
+                    android:id="@+id/iview2"
+                    android:src="@drawable/samosa"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:id="@+id/et21"
+                        android:text="SAMOSA"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:id="@+id/et22"
+                        android:text="Veg Samosa"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0a129c"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll3"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="150dp"
+                    android:id="@+id/iview3"
+                    android:src="@drawable/dryfruit"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:id="@+id/et31"
+                        android:text="DRIED FRUITS"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:id="@+id/et32"
+                        android:text="Set Of Dried Fruits"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0a129c"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll4"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="130dp"
+                    android:id="@+id/iview4"
+                    android:src="@drawable/icecream"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:id="@+id/et41"
+                        android:text="ICE-CREAM"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:id="@+id/et42"
+                        android:text="Choclate Ice-Cream"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0a129c"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll5"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="150dp"
+                    android:id="@+id/iview5"
+                    android:src="@drawable/greentea"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:id="@+id/et51"
+                        android:text="GREEN TEA"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:id="@+id/et52"
+                        android:text="Natural Tea"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0a129c"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll6"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="150dp"
+                    android:id="@+id/iview6"
+                    android:src="@drawable/salad"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:id="@+id/et61"
+                        android:text="SALAD"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:id="@+id/et62"
+                        android:text="Veg Salad"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0a129c"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll7"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="150dp"
+                    android:id="@+id/iview7"
+                    android:src="@drawable/fries"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:id="@+id/et71"
+                        android:text="CRISPY-FRIES"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:id="@+id/et72"
+                        android:text="Mix Veg Crisp Fries"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0a129c"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll8"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="150dp"
+                    android:id="@+id/iview8"
+                    android:src="@drawable/popcorn"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:id="@+id/et81"
+                        android:text="POP-CORN"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:id="@+id/et82"
+                        android:text="Delicious Cheese Pop-Corn"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0a129c"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll9"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="150dp"
+                    android:id="@+id/iview9"
+                    android:src="@drawable/pizzaa"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:id="@+id/et91"
+                        android:text="PIZZAA"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:id="@+id/et92"
+                        android:text="Veg Overloaded Pizza"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0a129c"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ll10"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="150dp"
+                    android:id="@+id/iview10"
+                    android:src="@drawable/roll"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:id="@+id/et101"
+                        android:text="ROLLS"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:textColor="#ff0000"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:id="@+id/et102"
+                        android:text="Spring Roll"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="#0a129c"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
